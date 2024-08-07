@@ -1,5 +1,3 @@
-require("./GBAN/index.js");
-
 const { server, client, version } = require('discord-mcbe');
 
 console.log('[Script] loaded!');

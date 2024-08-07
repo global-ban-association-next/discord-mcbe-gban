@@ -1,5 +1,5 @@
 {
-  "include": [ "src/", "scripts/", "scripts/GBAN" ],
+  "include": [ "src/", "scripts/" ],
   "exclude": [ "node_modules/" ],
   "files": [ "src/types/index.d.ts"],
   "compilerOptions": {

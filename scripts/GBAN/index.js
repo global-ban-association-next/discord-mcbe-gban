@@ -8,7 +8,7 @@ const ALT_GBAN_REFERENCES = ["https://gban.un-known.xyz/list.json", "https://api
 let GBan = [],
     useAlt = false;
 
-/** @param {import('discord-mcbe')} main */
+/** @param {import('../../src/index')} main */
 async function main(main) {
     if (!main.config.gban.enable) return;
 
