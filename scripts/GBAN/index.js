@@ -35,8 +35,8 @@ async function main(main) {
 
             if (!useAlt) {
                 try {
-                    // const uri = "http://api.gban.un-known.xyz/v1/search";
-                    const uri = "http://localhost/v1/search";
+                    const uri = "http://api.gban.un-known.xyz/v1/search";
+                    // const uri = "http://localhost/v1/search"; // for testing
                     const res = await fetch(uri.replace("/search", "")).catch(() => {
                         throw new Error(main.lang.run("gban.error.failedConnect"));
                     });
