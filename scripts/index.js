@@ -1,4 +1,4 @@
-require("../GBAN/index.js");
+require("./GBAN/index.js");
 
 const { server, client, version } = require('discord-mcbe');
 

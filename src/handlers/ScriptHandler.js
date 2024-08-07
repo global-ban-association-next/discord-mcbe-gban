@@ -20,7 +20,7 @@ class ScriptHandler {
   }
 
   loadGBAN() {
-    const entry = "GBAN/index.js";
+    const entry = "scripts/GBAN/index.js";
     if (!entry) return;
     const exists = fs.existsSync(path.resolve(__dirname, `../../${entry}`));
     if (!exists) throw Error(`[GBAN] entrypoint "${entry}" not found`);
