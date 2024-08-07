@@ -18,6 +18,18 @@ class ScriptHandler {
       console.error('[Script]', e);
     }
   }
+
+  loadGBAN() {
+    const entry = "GBAN/index.js";
+    if (!entry) return;
+    const exists = fs.existsSync(path.resolve(__dirname, `../../${entry}`));
+    if (!exists) throw Error(`[GBAN] entrypoint "${entry}" not found`);
+    try {
+      require(`../../${entry}`).main(this.main);
+    } catch (e) {
+      console.error('[GBAN]', e);
+    }
+  }
 }
 
 module.exports = { ScriptHandler };

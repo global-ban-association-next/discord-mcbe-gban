@@ -19,5 +19,11 @@
   "command_version": "1.19.80", // マイクラに送るコマンドのバージョン
   "debug": false,
   
-  "styles_tnac": true // TN-AntiCheatからのメッセージを強調する
+  "styles_tnac": true, // TN-AntiCheatからのメッセージを強調する
+
+  // GBAN
+  "gban": {
+    "enable": true, // GBAN機能を有効にする
+    "whitelist": [] // GBANを無効にするプレイヤー名
+  }
 }

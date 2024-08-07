@@ -40,3 +40,17 @@ console.me= * %0 %1
 console.say=%0
 
 util.duration=%0h %1m %2s
+
+gban=Global Ban Association Next
+gban.running=GBAN en cours d'exécution sur discord-mcbe v%0
+gban.fetched=Récupérer %0 entrées de GBAN.
+gban.banned.you=Vous êtes banni mondialement !
+gban.banned.player=Le joueur %0 est banni mondialement.
+gban.reason=Raison : %0
+gban.mc.banned.you=§cVous êtes banni mondialement !
+gban.mc.banned.player=§cLe joueur §f%0§r §cest banni mondialement.
+gban.mc.reason=§7Raison :§r %0
+gban.kicked=%0 a été expulsé !
+gban.warn.alt=Passage aux références GBan alternatives.
+gban.error.failedConnect=Échec de la connexion à l'API GBAN.
+gban.error.checking=Une erreur s'est produite lors de la vérification de %0

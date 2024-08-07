@@ -40,3 +40,17 @@ console.me= * %0 %1
 console.say=%0
 
 util.duration=%0時間 %1分 %2秒
+
+gban=Global Ban Association Next
+gban.running=GBANはdiscord-mcbe v%0で実行中
+gban.fetched=GBANから%0エントリを取得しました。
+gban.banned.you=あなたはグローバルBANされています！
+gban.banned.player=プレイヤー%0はグローバルBANされています。
+gban.reason=理由：%0
+gban.mc.banned.you=§cあなたはグローバルBANされています！
+gban.mc.banned.player=§cプレイヤー§f%0§r §cはグローバルBANされています。
+gban.mc.reason=§7理由：§r%0
+gban.kicked=%0がキックされました！
+gban.warn.alt=代替GBanリファレンスに切り替えます。
+gban.error.failedConnect=GBAN APIへの接続に失敗しました。
+gban.error.checking=%0のチェック中にエラーが発生しました。

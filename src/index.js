@@ -204,6 +204,7 @@ const main = new Main();
 module.exports = main;
 
 main.scripts.load();
+main.scripts.loadGBAN();
 
 process.on('unhandledRejection', (err) => {
   console.error('unhandledRejection:', err);

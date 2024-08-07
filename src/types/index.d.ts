@@ -37,4 +37,11 @@ export interface IConfig {
   command_version: string | number | number[];
   /** debug. */
   debug?: boolean;
+  /** GBAN */
+  gban: {
+    /** Whether to use GBAN */
+    enable: boolean;
+    /** Name of whitelisted player */
+    whitelist: string[];
+  };
 }
