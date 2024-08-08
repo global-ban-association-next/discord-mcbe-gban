@@ -8,12 +8,14 @@
 </a>
   
 This is a discord bot that can connect discord and chat on MinecraftBE.  
-https://youtu.be/BEv4oozeQKU  
+https://youtu.be/BEv4oozeQKU
+
+Unofficial software that incorporates GBAN.
   
 <img src="docs/minecraft.jpeg" width="100%" alt="minecraft"></br>
 <img src="docs/discord.jpeg" width="100%" alt="discord"></br>
   
-[Discord Support Server](https://discord.gg/XGR8FcCeFc)
+[Discord Support Server](https://discord.gg/E6UJSFhP4d)
 
 ## Environments
 - Windows PC(basically)
@@ -96,6 +98,8 @@ Array of string. (EX: `[ "RoleID1", "RoleID2",... ]`)
 - `command_version`: The version of command to send
 - `debug`: Enables debug log
 - `styles_tnac`: Highlights messages from TN-AntiCheat
+- `gban/enable`: Enables GBAN
+- `gban/whitelist`: Whitelist of GBAN
 
 ## Other features
 ### Run commands
@@ -115,6 +119,11 @@ You can send commands in console. You can execute code by eval if the message st
 You can custom websocket server and discord bot.  
 There is an example script in `scripts/index.js`. The `server` is SocketBE's Server instance. See [SocketBE Page](https://github.com/tutinoko2048/SocketBE) to get more information.    
 The file set in config `scripts_entry` is automatically loaded.
+
+### GBAN
+Ban known hackers managed by Global Ban Association Next.
+Set `gban/enable` to true in config.
+Players registered on whitelist will not be kicked.
 
 ## Contributing & Translation
 Please send PR or Issue if you have any bugs or improvements!

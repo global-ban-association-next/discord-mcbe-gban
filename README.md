@@ -1,14 +1,15 @@
 > [README_en.md](README_en.md) (English)is here
 
-# discord-mcbe
+# discord-mcbe-gban
   
 <img src="https://img.shields.io/github/downloads/tutinoko2048/discord-mcbe/total?style=for-the-badge"> <img src="https://img.shields.io/github/downloads/tutinoko2048/discord-mcbe/latest/total?style=for-the-badge">  
 <a href="https://github.com/tutinoko2048/discord-mcbe/releases">
   <img src="https://img.shields.io/github/v/release/tutinoko2048/discord-mcbe?display_name=tag&style=for-the-badge">
 </a>
-  
-MinecraftBEでdiscordとチャットを繋ぐことができるDiscord Botです。バニラ環境で動きます。  
+
+GBANが使えるようになったMinecraftBEでdiscordとチャットを繋ぐことができるDiscord Botです。バニラ環境で動きます。  
 https://youtu.be/BEv4oozeQKU  
+GBANを組み込んだ非公式ソフトウェアです。
   
 <img src="docs/minecraft.jpeg" width="100%" alt="minecraft"></br>
 <img src="docs/discord.jpeg" width="100%" alt="discord"></br>
@@ -98,6 +99,8 @@ tellでメッセージをプレイヤーに送信します。周りからは見�
 - `command_version`: マイクラに送るコマンドのバージョン
 - `debug`: デバッグログを有効化
 - `styles_tnac`: TN-AntiCheatからのメッセージを強調する
+- `gban/enable`: GBANを有効化
+- `gban/whitelist`: GBANを無効化するプレイヤーのリスト
 
 ## その他の機能
 ### コマンドの実行
@@ -121,6 +124,11 @@ configのscripts_entryで指定したファイルが自動で読み込まれま�
 ### TNACとの連携
 [TN-AntiCheat](https://github.com/tutinoko2048/TNAntiCheat)からのメッセージを強調表示できます(configで設定)  
 TNAC側のconfig `others/sendws` もオンにしてください
+
+### GBAN
+Global Ban Association Nextで管理されている既知のハッカーを追放します
+configから`gban/enable`をtrueにしてください
+whitelistに登録されているプレイヤーは追放されません
 
 ## Contributing & Translation
 改善点、問題点などのPull RequestやIssueは大歓迎です！  
